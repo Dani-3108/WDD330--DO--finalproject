@@ -1,0 +1,41 @@
+.quote-section {
+    padding: 1.5rem;
+}
+
+.quote-section h1 {
+    margin-bottom: 0.5rem;
+}
+
+.quote-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.quote-form label {
+    font-family: "Fira Code", monospace;
+    color: #9783FF;
+}
+
+.quote-form select {
+    padding: 0.6rem;
+    font-family: "Inter", sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid #9783FF;
+    border-radius: 4px;
+}
+
+.quote-result-box {
+    border: 1px solid #9783FF;
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+
+#quote-result {
+    font-family: "Fira Code", monospace;
+    color: #FF8400;
+    font-size: 1.2rem;
+    text-align: center;
+}

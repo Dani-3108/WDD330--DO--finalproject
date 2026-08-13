@@ -1,0 +1,20 @@
+[
+  {
+    "id": "optix",
+    "name": "OptiX",
+    "basePriceUSD": 15000,
+    "description": "Entry-level inline inspection system for single-line deployments."
+  },
+  {
+    "id": "cortex",
+    "name": "CorteX",
+    "basePriceUSD": 28000,
+    "description": "Mid-tier system with adaptive tooling for multi-product lines."
+  },
+  {
+    "id": "flexgen",
+    "name": "FleX-Gen",
+    "basePriceUSD": 45000,
+    "description": "Full-scale system with predictive analytics and plant-wide integration."
+  }
+]

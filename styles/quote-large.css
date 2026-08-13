@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+    /**Hamburger menu and navigation bar***/
+        #hamburger {
+            display: none;
+        }
+    
+        nav.menu {
+            position: static;
+            display: flex;
+        }
+    
+        .menu ul {
+            display: flex;
+        }
+    .quote-section {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 3rem 1.5rem;
+    }
+
+    .quote-form select {
+        font-size: 1.05rem;
+    }
+
+    #quote-result {
+        font-size: 1.4rem;
+    }
+}
