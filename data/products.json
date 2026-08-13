@@ -3,18 +3,51 @@
     "id": "optix",
     "name": "OptiX",
     "basePriceUSD": 15000,
-    "description": "Entry-level inline inspection system for single-line deployments."
+    "description": "Entry-level inline inspection system for single-line deployments.",
+    "cameraCount": 2,
+    "accuracyPercent": 97.5,
+    "throughputPerHour": 1200,
+    "deploymentTimeWeeks": 2,
+    "warrantyYears": 1,
+    "supportedLineTypes": [
+      "packaging",
+      "assembly"
+    ],
+    "cloudConnected": false
   },
   {
     "id": "cortex",
     "name": "CorteX",
     "basePriceUSD": 28000,
-    "description": "Mid-tier system with adaptive tooling for multi-product lines."
+    "description": "Mid-tier system with adaptive tooling for multi-product lines.",
+    "cameraCount": 4,
+    "accuracyPercent": 98.9,
+    "throughputPerHour": 3600,
+    "deploymentTimeWeeks": 4,
+    "warrantyYears": 2,
+    "supportedLineTypes": [
+      "packaging",
+      "assembly",
+      "welding"
+    ],
+    "cloudConnected": true
   },
   {
     "id": "flexgen",
     "name": "FleX-Gen",
     "basePriceUSD": 45000,
-    "description": "Full-scale system with predictive analytics and plant-wide integration."
+    "description": "Full-scale system with predictive analytics and plant-wide integration.",
+    "cameraCount": 8,
+    "accuracyPercent": 99.6,
+    "throughputPerHour": 9000,
+    "deploymentTimeWeeks": 6,
+    "warrantyYears": 3,
+    "supportedLineTypes": [
+      "packaging",
+      "assembly",
+      "welding",
+      "casting"
+    ],
+    "cloudConnected": true
   }
 ]

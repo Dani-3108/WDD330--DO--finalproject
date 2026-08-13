@@ -39,3 +39,43 @@
     font-size: 1.2rem;
     text-align: center;
 }
+
+.product-specs {
+    border: 1px solid #9783FF;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-specs h3 {
+    color: #9783FF;
+    font-family: "Fira Code", monospace;
+    margin-bottom: 0.5rem;
+}
+
+.product-specs ul {
+    list-style-position: inside;
+}
+
+.product-specs li {
+    padding: 0.2rem 0;
+}
+
+.product-specs {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.product-specs:hover {
+    box-shadow: 0 0 12px #9783FF;
+    transform: translateY(-3px);
+}
+
+.quote-form select {
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quote-form select:hover,
+.quote-form select:focus {
+    border-color: #FF8400;
+    box-shadow: 0 0 6px rgba(255, 132, 0, 0.5);
+}

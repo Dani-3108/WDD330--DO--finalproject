@@ -2,15 +2,14 @@
 // Page logic for the Get a Quote page.
 // Populates the product and currency dropdowns, then recalculates
 // and displays the converted price any time either dropdown changes.
+// Also remembers the user's last selections using localStorage.
 
-import {
-    getSupportedCurrencies,
-    getExchangeRate
-} from "./currency-service.mjs";
+import { getSupportedCurrencies, getExchangeRate } from "./currency-service.mjs";
 
 const productSelect = document.querySelector("#product-select");
 const currencySelect = document.querySelector("#currency-select");
 const resultDisplay = document.querySelector("#quote-result");
+const specsDisplay = document.querySelector("#product-specs");
 
 let products = [];
 
@@ -25,6 +24,12 @@ async function loadProducts() {
         option.textContent = `${product.name} — $${product.basePriceUSD.toLocaleString()}`;
         productSelect.appendChild(option);
     });
+
+    // Restore the last product the user picked, if we saved one.
+    const savedProduct = localStorage.getItem("quote-last-product");
+    if (savedProduct) {
+        productSelect.value = savedProduct;
+    }
 }
 
 // Load supported currencies from Frankfurter and fill the currency dropdown.
@@ -38,10 +43,37 @@ async function loadCurrencies() {
             option.textContent = `${code} — ${name}`;
             currencySelect.appendChild(option);
         });
+
+        // Restore the last currency the user picked, if we saved one.
+        const savedCurrency = localStorage.getItem("quote-last-currency");
+        if (savedCurrency) {
+            currencySelect.value = savedCurrency;
+        }
+
+        // If both selections were restored from localStorage, show a quote right away.
+        if (productSelect.value && currencySelect.value) {
+            updateQuote();
+        }
     } catch (error) {
         resultDisplay.textContent = "Currency list could not be loaded. Please try again later.";
         console.error(error);
     }
+}
+
+// Show the extra spec details pulled from the local JSON for the selected product.
+function displaySpecs(product) {
+    specsDisplay.innerHTML = `
+        <h3>${product.name} Specifications</h3>
+        <ul>
+            <li>Cameras: ${product.cameraCount}</li>
+            <li>Accuracy: ${product.accuracyPercent}%</li>
+            <li>Throughput: ${product.throughputPerHour.toLocaleString()} units/hour</li>
+            <li>Deployment time: ${product.deploymentTimeWeeks} weeks</li>
+            <li>Warranty: ${product.warrantyYears} year(s)</li>
+            <li>Line types: ${product.supportedLineTypes.join(", ")}</li>
+            <li>Cloud connected: ${product.cloudConnected ? "Yes" : "No"}</li>
+        </ul>
+    `;
 }
 
 // Recalculate and display the quote based on current dropdown selections.
@@ -53,6 +85,12 @@ async function updateQuote() {
         return;
     }
 
+    // Remember these selections for next time the page is visited.
+    localStorage.setItem("quote-last-product", selectedProduct.id);
+    localStorage.setItem("quote-last-currency", selectedCurrency);
+    localStorage.setItem("quote-last-viewed", new Date().toISOString());
+
+    displaySpecs(selectedProduct);
     resultDisplay.textContent = "Calculating...";
 
     try {
