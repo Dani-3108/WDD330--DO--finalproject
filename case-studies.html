@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 UnitX case studies web page | Daniel Osorio|</title>
+    <meta name="description"
+        content="This page contains 15 different case studies across different industires about how the products of UnitX have been used">
+    <meta name="author" content="Daniel Osorio">
+    <!--Facebook Meta Tags -->
+    <meta property="og:title" content="WDD231 UnitX case studies web page | Daniel Osorio|">
+    <meta property="og:description"
+        content="This page contains 15 different case studies across different industires about how the products of UnitX have been used">
+    <meta property="og:image" content="https://dani-3108.github.io/wdd231/finalproject/images/cpu.svg">
+    <meta property="og:url" content="https://dani-3108.github.io/wdd231/finalproject/case-studies.html">
+    <!--Favicon reference-->
+    <link rel="icon" href="favicon.ico">
+    <!--Link to Google fonts API-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!--Link for CSS and JavaScript-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/case-studies-small.css">
+    <link rel="stylesheet" href="styles/case-studies-large.css">
+    <script type="module" src="scripts/main.mjs"></script>
+    <script type="module" src="scripts/case-studies.mjs"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/cpu.svg" alt="Site Logo" width="35" height="35">
+            <span>UnitX</span>
+        </div>
+        <button id="hamburger" aria-label="Menu">&#9776;</button>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="form.html">Contact Us</a></li>
+                <li class="current"><a href="case-studies.html">Case studies</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <h1>Case studies and success stories with our customers</h1>
+       <div id="case-studies-cards"></div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🌿 Daniel Osorio 🌿 Mexico</p>
+        <p id="lastModified"></p>
+        <p id="visit-message"></p>
+        <a href="references.html">References</a>
+        <a href="https://www.youtube.com/watch?v=KAbOkGg_KlM">Video Demonstration and Reflection</a>
+    </footer>
+</body>
+
+</html>

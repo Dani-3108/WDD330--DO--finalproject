@@ -1,0 +1,109 @@
+{
+  "caseStudies": [
+    {
+      "title": "Electrode Tab Ultrasonic Final Weld Mark Quality Inspection",
+      "description": "Inspects ultrasonic weld marks on transition tabs and flexible connectors to ensure weld quality, detecting tab burrs, folding, tearing, and weld-mark misalignment.",
+      "keyMetric": "False Rejection Rate ≤ 0.5%",
+      "industry": "Battery",
+      "image": "electrode-tab.webp"
+    },
+    {
+      "title": "Cylindrical Battery Exterior Surface Inspection",
+      "description": "A CorteX-only vision solution for cylindrical battery exteriors, detecting contamination, scratches, impact marks, and pits while integrating with existing equipment and MES systems.",
+      "keyMetric": "False Acceptance Rate = 0%",
+      "industry": "Battery",
+      "image": "Cylindrical-Battery.webp"
+    },
+    {
+      "title": "Battery Top-Cap Surface Inspection",
+      "description": "Detects over 100 defect types on reflective battery top covers—including weld breaks, voids, oxidation, scratches, and membrane misalignment—while reducing labor costs across diverse materials and sizes.",
+      "keyMetric": "Saved 4 inspectors per shift",
+      "industry": "Battery",
+      "image": "Battery-Top-Cap.webp"
+    },
+    {
+      "title": "Automotive Electric Stators Surface Inspection",
+      "description": "An AI-driven vision system delivers complete coverage and real-time traceability for electric stators, detecting missing welds, enamel damage, 2-ball, burrs, scratches, and core delamination.",
+      "keyMetric": "100% detection accuracy across all 8 defect types during validation",
+      "industry": "Automotive",
+      "image": "Automotive-Electric-Stators.webp"
+    },
+    {
+      "title": "Automotive Gear Surface Defect Inspection",
+      "description": "Automated inspection catches gear defects—sand holes, scratches, and rust—before they cause safety issues, rework, or OEM quality failures.",
+      "keyMetric": "False Acceptance Rate = 0.05%",
+      "industry": "Automotive",
+      "image": "Automotive-Gear-Surface-Defect.webp"
+    },
+    {
+      "title": "Engine Case Surface Defect Inspection",
+      "description": "A robot-assisted AI vision system scans engine cases from multiple angles, catching burrs, dents, flash, peeling, scratches, gas porosity, and 8+ other defects.",
+      "keyMetric": "False Acceptance Rate ≤ 0.5%, False Rejection Rate ≤ 2%",
+      "industry": "Automotive",
+      "image": "Engine-Case-Surface.webp"
+    },
+    {
+      "title": "Transmission Motor Shaft Surface Defect Inspection",
+      "description": "A 6-axis robot with a 12MP OptiX station performs a high-speed rotation scan for total surface coverage, detecting rust, contamination, oil stains, dents, and 10+ more defects.",
+      "keyMetric": "False Rejection Rate ≤ 5%",
+      "industry": "Automotive",
+      "image": "Transmission-Motor-Shaft.webp"
+    },
+    {
+      "title": "Rubber Bushing Surface Defect Inspection",
+      "description": "A vertical-view configuration automates inspection of rubber surfaces and metal end-faces, detecting adhesion, indentation, cracks, missing sequence, and foreign objects in holes.",
+      "keyMetric": "False Acceptance Rate = 0.1%",
+      "industry": "Automotive",
+      "image": "Rubber-Bushing.webp"
+    },
+    {
+      "title": "PCBA Surface Defect Inspection",
+      "description": "A single AI model detects all defect types across five PCBA variants, including foreign particles, adhesive residue, fingerprints, and 10+ others.",
+      "keyMetric": "False Rejection Rate ≤ 5%",
+      "industry": "SMT Industry",
+      "image": "PCBA-Surface-Defect.webp"
+    },
+    {
+      "title": "CPU PIN Surface Defect Inspection",
+      "description": "Automated inspection catches bent pins and foreign material on CPU pins early, reducing rework and improving production efficiency.",
+      "keyMetric": "False Acceptance Rate ≤ 0.01%",
+      "industry": "SMT Industry",
+      "image": "CPU-PIN-Surface.webp"
+    },
+    {
+      "title": "Rigid-Flex PCB Solder Joint Defect Inspection",
+      "description": "An upgraded AOI system supports rapid model changeovers while catching lifted joints, missing solder, solder bridges, and insufficient or excessive solder.",
+      "keyMetric": "Critical defects False Acceptance Rate = 0%",
+      "industry": "SMT Industry",
+      "image": "Rigid-Flex-PCB.webp"
+    },
+    {
+      "title": "Photovoltaic Connector Surface Defect Inspection",
+      "description": "An inline AI vision system inspects pin faces and cylindrical surfaces for indentations, cracks, scorching, imprints, contamination, and whitening, flagging yield drops in real time.",
+      "keyMetric": "Triggers an alarm when consecutive defects exceed 3 pieces or yield drops below 95%",
+      "industry": "Connectors Industry",
+      "image": "Photovoltaic-Connector.webp"
+    },
+    {
+      "title": "Terminal Connectors Surface Defect Inspection",
+      "description": "Detects critical connector defects—flash, broken tool marks, and nonfill—that cause electrical failures, short circuits, and customer rejections.",
+      "keyMetric": "False Rejection Rate ≤ 0.8%",
+      "industry": "Connectors Industry",
+      "image": "Terminal-Connectors.webp"
+    },
+    {
+      "title": "Connector Pin Surface Defect Inspection",
+      "description": "Four OptiX units perform five-face inspection plus precision dimensional measurement, detecting scratches, flattening, dents, and 10+ other defect types.",
+      "keyMetric": "False Rejection Rate = 3.25%",
+      "industry": "Connectors Industry",
+      "image": "Connector-Pin-Surface.webp"
+    },
+    {
+      "title": "Dental Crowns Surface Defect Inspection",
+      "description": "Ensures consistent end-of-line and glaze-station quality by detecting fractures, bubbles, missing glaze, white marks, pooling, and contamination on dental crowns.",
+      "keyMetric": "False Acceptance Rate = 0%",
+      "industry": "Medical Industry",
+      "image": "Dental-Crowns-Surface.webp"
+    }
+  ]
+}

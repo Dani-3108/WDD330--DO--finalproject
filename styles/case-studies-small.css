@@ -1,0 +1,39 @@
+main h1 {
+    text-align: center;
+}
+main div {
+    margin-bottom: 1rem;
+}
+main section {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid #9783FF;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: "Inter", sans-serif;
+}
+main section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1rem 0 1rem 0;
+    transition: transform 0.3s ease;
+}
+main section h2 {
+    text-align: center;
+    font-family: "Fira Code", monospace;
+}
+main section ul {
+    list-style-position: inside;
+    
+}
+main section li {
+    list-style-type: square;
+    padding: 0.5rem;
+    text-align: center;
+}
+.key-metric {
+    font-style: italic;
+    font-weight: bolder;
+}

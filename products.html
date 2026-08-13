@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 Products of UnitX Web Page | Daniel Osorio |</title>
+    <meta name="description"
+        content="This page covers the 3 different products that UnitX offers in the market for automated inspection of defects using vision systems">
+    <meta name="author" content="Daniel Osorio">
+    <!--Facebook Meta Tags -->
+    <meta property="og:title" content="WDD231 Products of UnitX Web Page | Daniel Osorio |">
+    <meta property="og:description"
+        content="This page covers the 4 different products that UnitX offers in the market for automated inspection of defects using vision systems">
+    <meta property="og:image" content="https://dani-3108.github.io/wdd231/finalproject/images/cpu.svg">
+    <meta property="og:url" content="https://dani-3108.github.io/wdd231/finalproject/products.html">
+    <!--Favicon reference-->
+    <link rel="icon" href="favicon.ico">
+    <!--Link to Google fonts API-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!--Link for CSS and JavaScript-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/products-small.css">
+    <link rel="stylesheet" href="styles/products-large.css">
+    <script type="module" src="scripts/main.mjs"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/cpu.svg" alt="Site Logo" width="35" height="35">
+            <span>UnitX</span>
+        </div>
+        <button id="hamburger" aria-label="Menu">&#9776;</button>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="products.html">Products</a></li>
+                <li><a href="form.html">Contact Us</a></li>
+                <li><a href="case-studies.html">Case studies</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="howitworksh2">Products</h1>
+        <section class="optix">
+            <h2>OptiX</h2>
+            <img src="images/optix.webp" alt="UnitX camera mounted on manufacturing assembly line" width="800" height="1000" loading="lazy">
+            <p>A software-defined lighting system that dynamically illuminates parts for maximum contrast imaging and the following key features:</p>
+            <ul>
+                <li>Illuminate and image random complex defects across variable materials and structures using 32 independently controllable light sources</li>
+                <li>Adjust lighting via user-controlled software</li>
+                <li>Achieve rapid inspection times that match production cycle times capturing 1 meter / sec fly capture</li>
+                <li>Use 50 lighting patterns / second for fly capture</li>
+            </ul>
+        </section>
+        <section class="cortex">
+            <h2>CorteX</h2>
+            <img src="images/brain.webp" alt="UnitX brain and camera" width="800" height="1000" loading="lazy">
+            <p>Manage AI model development through the four core functional centers:</p>
+            <ul>
+                <li>Superhuman Accuracy achieves superhuman accuracy with 9X lower escapes on high variance defects</li>
+                <li>Sample Efficient AI rapidly teaches models with as few as 5 images per defect type</li>
+                <li>Fast Decisions up to 100 MP/s inference speeds quickly pass a decision on OK/NG</li>
+                <li>Adjustable Tolerances by pixel precise defect segmentation and adjustable tolerance</li>
+            </ul>
+        </section>
+        <section class="flex">
+            <h2>FleX-Gen</h2>
+            <img src="images/flex-gen.webp" alt="AI Dashboard" width="640" height="360" loading="lazy">
+            <p>Discover how synthetic defects images help to train AI for inspection with our three core functions:</p>
+            <ul>
+                <li>Enhanced AI Accuracy by reducing false detection rate up to 9X by training on representative synthetic defect images of random complex defects.</li>
+                <li>Accelerated Model Development by quickly build robust detection models by generating defect images with as few as 3 real images per defect.</li>
+                <li>Flexible Application is designed for part change-overs and adapts rapidly for high-mix production</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🌿 Daniel Osorio 🌿 Mexico</p>
+        <p id="lastModified"></p>
+        <p id="visit-message"></p>
+        <a href="references.html">References</a>
+        <a href="https://www.youtube.com/watch?v=KAbOkGg_KlM">Video Demonstration and Reflection</a>
+    </footer>
+</body>
+</html>

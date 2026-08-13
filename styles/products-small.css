@@ -1,0 +1,47 @@
+/* How It Works page section*/
+main section {
+    border: 1px solid #9783FF;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: larger;
+}
+main h1 {
+    text-align: center;
+}
+main section h2 {
+    font-size: 3rem;
+}
+.howitworksh2 {
+    font-size: 4rem;
+}
+main section img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+
+.optix p, .cortex p, .flex p { 
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.optix ul, .cortex ul, .flex ul {
+    list-style-position: inside;
+    padding-left: 1.5rem;
+}
+.optix li {
+    list-style-type: square;
+    padding: 1rem;
+    text-align: center;
+    font-style: italic;
+}
+.cortex li, .flex li { 
+    list-style-type: decimal;
+    padding: 1rem;
+    text-align: center;
+    font-style: italic;
+}

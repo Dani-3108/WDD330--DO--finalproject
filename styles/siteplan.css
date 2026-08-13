@@ -1,0 +1,14 @@
+main h2,
+main h3 {
+    font-family: "Fira Code", monospace;
+    color: #9783FF;
+}
+
+main {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #000000;
+}

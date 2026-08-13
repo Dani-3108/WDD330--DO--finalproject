@@ -1,0 +1,65 @@
+/* Form */
+form {
+    padding: 1rem;
+}
+
+fieldset {
+    border: 1px solid #9783FF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+legend {
+    color: #9783FF;
+    font-family: "Fira Code", monospace;
+    padding: 0 0.5rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+input,
+select,
+textarea {
+    background-color: #111111;
+    border: 1px solid #9783FF;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+}
+
+.submitButton {
+    background-color: #9783FF;
+    color: #000000;
+    padding: 0.75rem 2rem;
+    border: none;
+    font-family: "Fira Code", monospace;
+    width: 100%;
+}
+
+.formheader {
+    font-size: 4rem;
+}
+/*Review section*/
+.thankyou-main {
+    margin: 1rem;
+}
+.thankyou-main h1, .thankyou-main p {
+    text-align: center;
+}
+.thankyou-main p {
+    font-size: large;
+}
+#results, #results p {
+    margin: 1rem;
+    text-align: center;
+}
+#results h3 {
+    margin: .5rem;
+}

@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) {
+    /**Hamburger menu and navigation bar***/
+    #hamburger {
+        display: none;
+    }
+    nav.menu {
+        position: static;
+        display: flex;
+    }
+    .menu ul {
+        display: flex;
+    }
+    /*****Main section three cards of what we do index page section*****/
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+    /**** What We Do section cards of index page ****/
+    .button-section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}

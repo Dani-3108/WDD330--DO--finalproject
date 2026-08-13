@@ -1,0 +1,102 @@
+/***Universal***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/**** main section*****/
+main {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+
+main h1, main h2, main h3 {
+    font-family: "Fira Code", monospace;
+    color: #9783FF;
+}
+/***Header section ***/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #9783FF;
+}
+header span {
+    font-family: "Fira Code", monospace;
+    color: #9783FF;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+/********************Navigation Bar******************************/
+nav.menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #000000;
+    border: 1px solid #9783FF;
+    z-index: 100;
+}
+
+nav.menu.open {
+    display: flex;
+}
+
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav.menu a {
+    display: block;
+    padding: .8rem 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    border-bottom: solid 1px black;
+}
+nav.menu li.current {
+    background-color: #4B3FA0;
+    color: #FFFFFF;
+}
+nav.menu li.current a {
+    color: white;
+}
+nav.menu a:hover {
+    color: rgb(255, 132, 0);
+    text-decoration: underline solid white;
+}
+#hamburger {
+    background: none;
+    border: 1px solid #9783FF;
+    color: #9783FF;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+}
+/******Body section********/
+body {
+    background-color: #000000;
+}
+/****Footer****/
+footer {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-top: 1px solid #9783FF;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #9783FF;
+}
+
+/***********************************************************************/
+main li a {
+    color: white;
+}
